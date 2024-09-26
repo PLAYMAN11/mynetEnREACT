@@ -1,5 +1,10 @@
+body{
+  Background-color: #201c2b;
+  color: white;
+
+}
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
@@ -13,16 +18,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +32,14 @@
     transform: rotate(360deg);
   }
 }
+
+.Perfil {
+  background-color: #292c3d;
+  max-width: 70%;
+
+}
+.Perfil input{
+  background-color: rgba(7, 7, 7, 0);
+  border: 2px white;
+}
+
