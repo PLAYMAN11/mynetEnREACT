@@ -19,7 +19,7 @@ function Contenido() {
             <p className="tituloperfil">Perfil </p>
             <hr/>
             <div className="divisoresperfil">
-                <div>
+                <div className='divisionusuario'>
                     <label>Usuario</label>
                     <input type="text" placeholder="Usuario" className="datosperfil " id="usuarioPerfil" readOnly/>
                 </div>
