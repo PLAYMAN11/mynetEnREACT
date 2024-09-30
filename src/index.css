@@ -12,23 +12,6 @@ code {
     monospace;
 }
 
-.perfil{
-  margin: 0 0 0 2%;
-  padding: 0 0 2% 0;
-}
-
-.divisionusuario{
-    width: 50px;
-}
-
-.sizedeinput{
-  width: 150px;
-}
-
-.perfil input{
-  background-color: aqua;
-  border-radius: 5px;
-}
 
 .datosperfil{
   border: 2px solid;

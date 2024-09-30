@@ -16,37 +16,39 @@ function Contenido() {
     return (
     <div className={styles.Perfil}>
         <div className="perfil">
-            <p className="tituloperfil">Perfil </p>
+            <h1 className="tituloperfil">Perfil </h1>
             <hr/>
             <div className="divisoresperfil">
                 <div className='divisionusuario'>
+                    <label>ID:Usuario</label>
+                    <input type="text" placeholder="ID:Usuario" className={styles.datosperfil} id="usuarioPerfil" readOnly/>
                     <label>Usuario</label>
-                    <input type="text" placeholder="Usuario" className="datosperfil " id="usuarioPerfil" readOnly/>
+                    <input type="text" placeholder="Usuario" className={styles.datosperfil} id="usuarioPerfil" readOnly/>
                 </div>
                 <div className="sizedeinput">
                     <label>Correo Electronico</label>
-                    <input type="email" placeholder="Correo Electronico" className="datosperfil"
+                    <input type="email" placeholder="Correo Electronico" className={styles.datosperfil}
                            id="CorreoElectronicoPerfil"/>
                 </div>
             </div>
             <div className="divisoresperfil">
                 <div className="sizedeinput">
                     <label>Nombre(s)</label>
-                    <input type="text" placeholder="Nombre(s)" className="datosperfil" id="NombresPerfil"/>
+                    <input type="text" placeholder="Nombre(s)" className={styles.datosperfil} id="NombresPerfil"/>
                 </div>
                 <div className="sizedeinput">
                     <label>Apellido(s)</label>
-                    <input type="text" placeholder="Apellido(s)" className="datosperfil" id="ApellidosPerfil"/>
+                    <input type="text" placeholder="Apellido(s)" className={styles.datosperfil} id="ApellidosPerfil"/>
                 </div>
             </div>
             <div className="divisoresperfil">
                 <div className="sizedeinput">
-                    <label>Notas</label>
-                    <textarea name="Sobre mi" className="datosperfil2" placeholder="Escribe aqui..."
+                    <label>Notas</label><br/>
+                    <textarea name="Sobre mi" className={styles.datosperfil2} placeholder="Escribe aqui..."
                               id="SobreMi"></textarea>
                 </div>
             </div>
-            <div className="divisiondebotonperfil">
+            <div className={styles.divisiondebotonperfil}>
                 <button className="botonperfil">Guardar</button>
                 <button className="botonperfil" id="logoutButton">Cerrar sesion</button>
             </div>
