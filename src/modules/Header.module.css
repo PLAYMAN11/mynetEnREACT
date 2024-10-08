@@ -1,12 +1,14 @@
 .Header {
     display: flex;
     width: 100%;
+    margin: 2% 0 0 0;
+
 }
 
 .Header nav {
-    display: flex; /* Mantener flex para alinear horizontalmente */
-    align-items: center; /* Cambié 'first' por 'center' */
-    justify-content: space-between; /* Para distribuir los elementos */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     transition: 1s;
 }
@@ -41,12 +43,11 @@
     transform-origin: left;
 }
 
-/* Estilos adicionales para menú desplegable */
 .Header nav div.menu {
     display: none;
-    flex-direction: column; /* Alinear verticalmente */
+    flex-direction: column;
 }
 
 .Header nav div.menu.open {
-    display: flex; /* Mostrar el menú al abrirse */
+    display: flex;
 }

@@ -20,8 +20,6 @@ function Contenido() {
             <hr/>
             <div className="divisoresperfil">
                 <div className='divisionusuario'>
-                    <label>ID:Usuario</label>
-                    <input type="text" placeholder="ID:Usuario" className={styles.datosperfil} id="usuarioPerfil" readOnly/>
                     <label>Usuario</label>
                     <input type="text" placeholder="Usuario" className={styles.datosperfil} id="usuarioPerfil" readOnly/>
                 </div>
